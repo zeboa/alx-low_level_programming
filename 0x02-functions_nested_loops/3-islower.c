@@ -6,7 +6,7 @@
  * Return: 1 if characters are lower, 0 otherwise
  */
 
-int _islower(int c);
+int _islower(int c)
 {
 	if (c >= 'a' && c <= 'z');
 	{
@@ -14,7 +14,7 @@ int _islower(int c);
 	}
 	else
 	{
-		return (0)
+		return (0);
 	}
 	_putchar('\n')
 }
