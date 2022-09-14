@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_alpahabet_x10 - prints lowercase alphabet 10times
+ * print_alphabet_x10 - prints lowercase alphabet 10times
  *
  * Return: 0 if exited propely, non zero otherwise
  */
