@@ -41,7 +41,6 @@ int main(void)
 		b_head = sum_head;
 		b_tail = sum_tail;
 	}
-	
 	printf("\n");
 
 	return (0);
