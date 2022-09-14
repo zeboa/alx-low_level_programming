@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *pPrint_alphabet - prints lowercase alphabet
+ *print_alphabet - prints lowercase alphabet
  * Return: 0 if exited propely, non zero otherwise
  */
 
