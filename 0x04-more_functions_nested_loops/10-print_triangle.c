@@ -5,31 +5,28 @@
  * @size: size of triangle to draw
  */
 
-void print_number(int n)
+void print_triangle(int size)
 {
-	unsigned int tens, digit, positive = n;
-	double t_beg = 1;
-
-	if (n == 0)
-		_putchar('0');
-	else
+	if (size <= 0)
 	{
-		if (n < 0)
-		{
-			positive = n * -1;
-			_putchar('-');
-		}
+		_putchar('\n');
+	} else
+	{
+		int i, j;
 	
-		while (t_beg <= positive)
-			t_beg *= 10;
-		tens = t_beg / 10;
-
-		while (tens >= 1)
+		for (i = 1; i <= size; i++)
 		{
-			digit = positive / tens;
-			_putchar(digit + '0');
-			positive = (positive - (tens * digit));
-			tens /= 10;
+			for (j = i; j < size; j++)
+			{
+				_putchar(' ');
+			}
+
+			for (j = 1; j <= i; j++)
+			{
+				_putchar('#');
+			}
+
+			_putchar('\n');
 		}
 	}
 }
