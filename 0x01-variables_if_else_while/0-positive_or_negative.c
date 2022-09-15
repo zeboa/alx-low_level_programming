@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main -  assign a random number to n each time its executed.
+ * main - print whether the number n is positive or negative.
  * Return: 0 if executed properly
  */
 
