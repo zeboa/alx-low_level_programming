@@ -5,7 +5,6 @@
  * @dest: destination string
  * @src: source string
  * @n: number of bytes of string to concatenate
- *
  * Return: a pointer to the resulting string dest
  */
 
